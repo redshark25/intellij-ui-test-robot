@@ -47,7 +47,7 @@ intellij {
 
 tasks {
     runIde {
-        systemProperty("robot-server.port", 8080)
+        systemProperty("robot-server.port", 8082)
 //        systemProperty("robot.encryption.enabled", "true")
 //        systemProperty("robot.encryption.password", "my super secret")
     }

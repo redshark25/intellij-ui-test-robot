@@ -1,4 +1,10 @@
+
+repositories {
+    mavenCentral()
+    maven (url = "https://packages.jetbrains.team/maven/p/ij/intellij-dependencies" )
+}
 dependencies {
+    testImplementation("com.intellij.remoterobot:ide-launcher:0.11.23")
     implementation("org.jetbrains.kotlin:kotlin-stdlib")
     implementation("com.google.code.gson:gson:2.10.1")
     api("com.squareup.okhttp3:okhttp:4.12.0")
